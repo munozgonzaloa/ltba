@@ -8,7 +8,7 @@ class Landing extends Component {
         <div className="container">
           <div className="row justify-content-center text-center">
             <div className="col-md-10 col-lg-6">
-              <h1 className="display-3 text-dark">
+              <h1 className="display-3 text-dark col-xs-8">
                 Bienvenido a LTBA Construcciones
               </h1>
               <br />
