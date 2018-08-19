@@ -1,0 +1,30 @@
+.highlight-blue {
+  color: #fff;
+  padding: 50px 0;
+  background: url(https://res.cloudinary.com/dqa7mf5v4/image/upload/v1534632829/architecture-building-business.jpg)
+    no-repeat center / cover;
+}
+
+.highlight-blue p {
+  color: #c4d5ef;
+  line-height: 1.5;
+}
+
+.highlight-blue h2 {
+  font-weight: normal;
+  margin-bottom: 25px;
+  line-height: 1.5;
+  padding-top: 0;
+  margin-top: 0;
+  color: inherit;
+}
+
+.highlight-blue .intro {
+  font-size: 16px;
+  max-width: 500px;
+  margin: 0 auto 25px;
+}
+
+.highlight-blue .buttons {
+  text-align: center;
+}
