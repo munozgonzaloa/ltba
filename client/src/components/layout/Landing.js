@@ -13,7 +13,7 @@ class Landing extends Component {
               </h1>
               <br />
               <p className="lead text-black">
-                Una descripción de la empresa o una frase acerca de nosotros
+                Experiencia y trayectoria en construcciones
               </p>
               <br />
               <br />

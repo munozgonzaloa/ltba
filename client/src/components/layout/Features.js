@@ -10,8 +10,8 @@ class Features extends Component {
             <h2 className="text-center">LTBA CONSTRUCCIONES SRL</h2>
             <p className="text-center">
               <br />
-              Somos una empresa constituida en 2014, nuestra labor se centra en
-              la prestacion de servicios de construcción. Garantizando una
+              Somos una empresa constituida en 2016, nuestra labor se centra en
+              la prestación de servicios de construcción. Garantizando una
               solucion eficaz y efectiva para las necesidades de nuestros
               clientes.
               <br />
@@ -25,7 +25,7 @@ class Features extends Component {
               <h3 className="name">Construcción</h3>
               <p className="description">
                 <br />
-                Hogares, comercios y oficinas. resultados optimos y economicos.
+                Hogares, comercios y oficinas. Resultados óptimos y económicos.
                 <br />
                 <br />
                 <br />
@@ -47,7 +47,7 @@ class Features extends Component {
               <h3 className="name">Instalaciones</h3>
               <p className="description">
                 <br />
-                Expertos en instalaciones electricas, sanitarias y de gas.
+                Expertos en instalaciones eléctricas, sanitarias y de gas.
                 <br />
                 <br />
                 <br />
