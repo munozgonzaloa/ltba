@@ -32,9 +32,15 @@ router.post("/send", (req, res) => {
       }
     });
 
+    let from = '"' + req.body.email + '" <info@ltbaconstrucciones.com>';
+
+    console.log(from);
+
     // setup email data with unicode symbols
     let mailOptions = {
-      from: req.body.email, // sender address
+      //      from: '"LTBA construcciones" <info@ltbaconstrucciones.com>', // sender adkdress
+      from: from, // sender adkdress
+      //      from: '"LTBA construcciones" <' + req.body.email + ">", // sender address
       to: "info@ltbaconstrucciones.com", // list of receivers
       subject: "Consulta generada WEB LTBA", // Subject line
       text: req.body.text, // plain text body
