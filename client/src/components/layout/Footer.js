@@ -24,8 +24,8 @@ export default () => {
             <div className="col-md-6 item text">
               <h3>LTBA Construcciones SRL</h3>
               <p>Ciudad de Buenos Aires - Argentina</p>
-              <p>marlon@ltbaconstrucciones.com.ar</p>
-              <p>+54 9 11 6441-5494</p>
+              <p>info@ltbaconstrucciones.com.ar</p>
+              <p>+54 9 11 6441-5494 - +54 9 11 5660-7813</p>
             </div>
             <div className="col item social">
               <a href="#">

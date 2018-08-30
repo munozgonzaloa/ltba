@@ -9,6 +9,7 @@ class Contacto extends Component {
       name: "",
       email: "",
       text: "",
+      mailEnviado: false,
       errors: {}
     };
 
@@ -29,16 +30,27 @@ class Contacto extends Component {
       text: this.state.text
     };
 
-    console.log(newContacto);
-    /*
     axios
-      .post("/api/users/register", newContacto)
-      .then(res => console.log(res.data))
-      .catch(err => this.setState({ errors: err.response.data }));*/
+      .post("/api/mail/send", newContacto)
+      .then(res => this.setState({ mailEnviado: true }))
+      .catch(err => this.setState({ errors: err.response.data }));
   }
 
   render() {
-    const { errors } = this.state;
+    const { errors, mailEnviado } = this.state;
+
+    let resultado = "";
+
+    if (mailEnviado) {
+      resultado = (
+        <div>
+          <br />
+          <div class="alert alert-primary" role="alert">
+            Tu consulta a sido enviada, te responderemos a la brevedad.
+          </div>
+        </div>
+      );
+    }
 
     return (
       <div className="register p-4 mt-5">
@@ -94,6 +106,7 @@ class Contacto extends Component {
                 </div>
                 <input type="submit" className="btn btn-info btn-block mt-4" />
               </form>
+              {resultado}
             </div>
           </div>
         </div>
